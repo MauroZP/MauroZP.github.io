@@ -1,0 +1,95 @@
+header h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px red;
+}
+
+header {
+    background: url(portada.gif) top no-repeat;
+    background-size: 700px;
+}
+
+.img-circle {
+    border: 5px solid rgba(17, 53, 153, 0.651);
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+    margin-left: 585px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-shadow: 3px 2px red;
+    border: 4px dashed black;
+    border-radius: 10%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.Selec {
+    background-color: red;
+    font-family: 'Righteous', cursive;
+}
+
+.Temas {
+    font-family: 'Permanent Marker', cursive; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.info {
+    text-align: center; 
+}
+
+.Video {
+    border: black;
+    margin-left: 400px;
+}
+
+body {
+    background-color: rgba(190, 189, 189, 0.616);
+}
+
+li {
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    list-style-type: none; 
+    margin: 30px 10px 0px 10px; 
+}
+
+.Bar {
+    background: rgba(255, 0, 0, 0.692);
+    position: relative;
+    width: 300px;
+    margin-left: 520px;
+}
+
+.log {
+    width: 70px;
+    height: 70px;
+}
+
+.box {
+    width: 70%;
+    display: block;
+    margin-left: 40px;
+}
+
+.box2 {
+    margin-left: 500px;
+}
