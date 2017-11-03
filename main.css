@@ -1,8 +1,8 @@
 header h1 {
     font-family: 'Acme', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: 3px 2px red;
 }
 
@@ -25,8 +25,6 @@ h2 {
     font-size: 70px;
     margin-bottom: 10px;
     text-shadow: 3px 2px red;
-    border: 4px dashed black;
-    border-radius: 10%;
 }
 
 table, th, td {
@@ -43,15 +41,34 @@ table {
     background-color: red;
     font-family: 'Righteous', cursive;
 }
+/* 
+body {
+    margin: 0;
+}
 
 .Temas {
     font-family: 'Permanent Marker', cursive; 
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    background-color: #f1f1f1;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #bbb;
 }
 
+.Temas a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Temas a:hover:not(.active) {
+    background-color: rgb(30, 189, 51);
+}   
+ */
 .info {
     text-align: center; 
 }
@@ -67,7 +84,7 @@ body {
 
 li {
     text-align: center;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Fugaz One', cursive;    
     list-style-type: none; 
     margin: 30px 10px 0px 10px; 
 }
@@ -93,3 +110,53 @@ li {
 .box2 {
     margin-left: 500px;
 }
+
+/*
+a:link, a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+*/
+
+/* */
+body {
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/* */
