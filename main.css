@@ -1,4 +1,4 @@
-header h1 {
+nav h1 {
     font-family: 'Acme', sans-serif;
     font-size: 90px;
     text-align: center;
@@ -6,7 +6,7 @@ header h1 {
     text-shadow: 3px 2px red;
 }
 
-header {
+nav {
     background: url(portada.gif) top no-repeat;
     background-size: 700px;
 }
@@ -97,11 +97,7 @@ li {
 }
 
 .log {
-    width: 70px;
-    height: 70px;
-}
-
-.log2 {
+    margin: 0px 0px 0px 280px;
     width: 70px;
     height: 70px;
 }
